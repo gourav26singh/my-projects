@@ -1,0 +1,26 @@
+                                                                         DIFFERENCE BETWEEN RUBY AND JAVASCRIPT
+Ruby:
+
+Syntax is elegant and readable, with a focus on developer happiness.
+Dynamically typed with strong type inference, allowing for flexible variable usage.
+Supports object-oriented programming paradigms with classes and mixins.
+Used for web development (with Ruby on Rails framework), scripting, automation, and server-side applications.
+Known for its productivity and ease of use, particularly in web development.
+Executed by the Ruby interpreter on various platforms.
+Has limited support for concurrency, primarily using threads or external libraries like EventMachine for asynchronous programming.
+Has a strong community focused on web development with Ruby on Rails, along with libraries for various domains like testing, database access, and deployment.
+
+
+
+
+JavaScript:
+
+Syntax is more C-like with curly braces and semicolons.
+Dynamically typed with weak typing, which can lead to type coercion.
+Supports both object-oriented and functional programming styles.
+Primarily used for web development (client-side with frameworks like React, Angular, Vue.js; server-side with Node.js), mobile app development (React Native), and desktop app development (Electron).
+Widely adopted for its versatility across different platforms.
+Interpreted by web browsers (client-side) and environments like Node.js (server-side).
+Strong support for asynchronous programming with callbacks, promises, and async/await syntax.
+Extensive ecosystem with numerous libraries and frameworks for web development, server-side development, mobile app development, and more.
+

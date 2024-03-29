@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.p1 {
+    width: 100vw;
+    height: 100vh;
+    background-color: bisque;
+    position: relative;
+    background-image: url("https://th.bing.com/th/id/R.51bf350f260ffdf12482c859a0b881c0?rik=nT%2f3qdK5vRukzA&riu=http%3a%2f%2fwww.goddardcoatings.com%2fwp-content%2fuploads%2f2015%2f02%2fcanstockphoto0038365.jpg&ehk=aT6rK4%2bUSkrIGmMF1UuP2fj5UWvRRZygMK1VXY1mXfE%3d&risl=&pid=ImgRaw&r=0");
+    background-size: cover;
+}
+
+.p2 {
+    width: 5%;
+    height: 10%;
+    position: absolute;
+    background-color: rgb(224, 15, 15);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    left: 46%;
+    box-shadow: 5px 5px 10px;
+    animation-name: effect;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 1s;
+
+}
+
+@keyframes effect {
+
+    0% {
+        top:0%;
+        width: 5%;
+        
+    }
+
+    
+    100%{
+        top: 90%;
+        width: 8%;
+        
+    }
+}

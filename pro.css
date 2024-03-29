@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border:border-box;
+}
+.container{
+    width: 100vw;
+    height: 90vh;
+    background-color:black;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.child1{
+    width: 100%;
+    height: 100%;
+    background-color: blueviolet;
+    background-image: url("https://media.istockphoto.com/id/1205289672/photo/majestic-bright-sunrise-over-ocean.jpg?s=612x612&w=0&k=20&c=sG7YEXKCLRu0Rn5FpIEgbefuKkeNO1wuV634C9ZMyuU=");
+
+    background-size:cover;
+    /* background-repeat: no-repeat; */
+}
+
+.cont{
+    display: flex;
+    width: 100vw;
+    height: 50vh;
+    /* background-color: aqua; */
+}
+
+.child2{
+    width: 50%;
+    height: 100%;
+    background-color: orange;
+    background-image: url("https://img.freepik.com/premium-photo/illustration-ofthe-most-beautiful-cloud_756405-25803.jpg");
+    background-size: cover;
+
+}
+
+.cont1{
+    width: 50vw;
+    height: 30vh;
+}
+.child3{
+    width: 100%;
+    height: 100%;
+    background-color: lightblue;
+    background-image: url("https://img.freepik.com/premium-photo/this-breathtaking-painting-beautiful-landscape-unfolds-sunny-sky-adorned-with-fluffy-clouds-designe_852340-6730.jpg");
+    background-size: cover;
+}
+
+
+.cont2{
+    width: 100vw;
+    display:flex;
+    /* flex-direction: row-reverse; */
+    /* margin-top: -594px; */
+    /* position: relative; */
+    
+}
+
+.child4{
+    /* display: inline-block; */
+    width: 50.5%;
+    height: 82%;
+    background-color: red;
+    background-image: url("https://as1.ftcdn.net/v2/jpg/05/51/74/56/1000_F_551745631_QPMgPQLi1uDUJNJm4O1hKTwgfLqQQHoM.jpg");
+    background-size: cover;
+    position: absolute;
+    top: 91.8%;
+    left: 50.5%;
+
+   
+}
+
+
+
+
+
+
+
+
